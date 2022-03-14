@@ -82,15 +82,15 @@ body {
     font-weight: 700;
 }
 
-.highlight {
-    color: #714aff;
-    font-weight: 900;
-}
-
 .info-text {
     color: #5f6a8f;
     font-size: 25px;
     font-weight: 400;
+}
+
+.highlight {
+    color: #714aff;
+    font-weight: 900;
 }
 
 .button-about {
