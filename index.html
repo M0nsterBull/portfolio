@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="logo.png">
+    <link rel="icon" href="/img/logo.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@
         <div class="row header">
             <div class="col-4">
                 <a href="/" class="brand">
-                    <img width="64px" class="logo-image" alt="brand" src="logo.png">
+                    <img width="64px" class="logo-image" alt="brand" src="/img/logo.png">
                     <div class="logo-text">OSZUST PRODUCTIONS</div>
                 </a>
             </div>
@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="col hero-cont">
-                <img class="rounded-circle hero-image" src="/picture.jpg" alt="Gianlucca Basilio Quinteros Oszust">
+                <img class="rounded-circle hero-image" src="./img/picture.jpg" alt="Gianlucca Basilio Quinteros Oszust">
             </div>
         </div>
     </div>
@@ -68,7 +68,7 @@
                     Programación - Videojuegos - Música - Desarrollo Web - Series</p>
             </div>
             <div class="col about-profile">
-                <img class="rounded-circle img-fluid about-image" width="256px" height="256px" src="/picture.jpg" alt="Gianlucca Basilio Quinteros Oszust">
+                <img class="rounded-circle img-fluid about-image" width="256px" height="256px" src="./img/picture.jpg" alt="Gianlucca Basilio Quinteros Oszust">
                 <h2>Gianlucca Quinteros</h2>
             </div>
         </div>
@@ -79,10 +79,16 @@
             <div class="col">
                 © Made by oszust productions 2022
             </div>
-            <div class="col">
-
-            </div>
         </div>
     </div>
+
+    <audio id="myAudio" loop autoplay >
+        <source src="./music/Cymatics - Lofi Full Drum Loop 1 - 70 BPM.wav"  type="audio/wav">
+    </audio>
+
+    <script>
+        var aud = document.getElementById("myAudio"); 
+        aud.volume = 0.3;
+    </script>
 </body>
 </html>
