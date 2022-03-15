@@ -15,7 +15,7 @@
     <title>Portfolio Gianlucca</title>
 </head>
 <body>
-    <audio id="myAudio" loop autoplay="autoplay">
+    <audio id="myAudio" loop>
     <source src="./music/Cozy-Fireplace.mp3" type="audio/mp3">
     </audio>
     <div class="container">
@@ -89,6 +89,10 @@
     <script>
         var aud = document.getElementById("myAudio"); 
         aud.volume = 0.2;
+
+        window.onload = function() {
+        document.getElementById("myAudio").play();
+        }
     </script>
 </body>
 </html>
