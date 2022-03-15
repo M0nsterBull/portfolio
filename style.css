@@ -2,18 +2,15 @@
  * ──────────────────────────────────────────────── N ──────────
  *   :::::: I N F O : :  :   :    :     :        :          :
  * ──────────────────────────────────────────────────────────
-
     background: azure;
     font-family: 'Raleway';
-
     colors:
         main txt: #252b3a;
         special txt: #714aff;
         secondary txt: #5f6a8f;
-
    ──────────────────────────────────────────────────────────────────────────────── */
 
-body {
+   body {
     font-size: 20px;
     background-color: azure;
     font-family: 'Raleway', sans-serif;
